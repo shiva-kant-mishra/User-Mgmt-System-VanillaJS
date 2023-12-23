@@ -51,7 +51,7 @@ Bonus Points
 o	The application is run in development mode using nodemon or ts-node-dev (there is a npm script start:dev)
 o	The application is run in production mode (there is a npm script start:prod that starts the build process and then runs the bundled file)
 
----------------------[Chai , Mocha used for testing]--------------------------------------------------------------------------------------------------------------------
+---------------------[Chai , Mocha used for testing]-------------------------
 
 7.[	There could be some tests for API (not less than 3 scenarios). Example of test scenario: 
 o	Get all records with a GET api/users request (an empty array is expected)
