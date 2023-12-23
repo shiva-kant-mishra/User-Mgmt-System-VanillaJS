@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+          "id": "user1703341144001",
+          "username": "Jack",
+          "age": 25,
+          "hobbies": ["Mountaineering","cycling"]
+        },
+        {
+        "id": "user1703341144002",
+        "username": "Jill",
+        "age": 26,
+        "hobbies": ["Reading"]
+        },
+        {
+        "id": "user1703341144003",
+        "username": "Humpty",
+        "age": 22,
+        "hobbies": ["Painting","Gardening"]
+        },
+        {
+        "id": "user1703341144004",
+        "username": "Dumpty",
+        "age": 30,
+        "hobbies": []
+        }
+    ]
+  }
