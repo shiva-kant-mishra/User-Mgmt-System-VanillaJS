@@ -1,9 +1,11 @@
 const http = require('http')
-const PORT = process.env.PORT || 5000
+const config = require('../config/config.js')
+// const PORT = process.env.PORT || 5000
 
 const userService = require("./userService")
 const utils = require("./utils")
 
+console.log(`NODE_ENV=${config.NODE_ENV}`)
 
 const server =  http.createServer(async(req,res) =>{
     try{
@@ -89,6 +91,6 @@ const server =  http.createServer(async(req,res) =>{
     }
 })
 
-server.listen(PORT, ()=>{
-    console.log(`Listening on Port : ${PORT}`)
+server.listen(config.PORT, config.HOST, ()=>{
+    console.log(`Listening on Port : ${config.HOST}:${config.PORT}`)
 })
